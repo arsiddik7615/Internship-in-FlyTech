@@ -1,0 +1,241 @@
+/* .body{
+    background-color: orange;
+} */
+
+
+.demo{
+    width: 20%;
+    height: 80px;
+    background-color:#EF1111;
+    float: left;
+}
+.demo h3{
+    margin-left: 50px;
+    font-size: 30px;
+    color: white;
+}
+/* Existing CSS ... */
+
+.button {
+    display: inline-block;
+    background-color: #FF9900;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #E58300;
+}
+
+/* Existing CSS ... */
+
+.demo1{
+    
+    width: 80%;
+    height: 80px;
+    background-color:#A70CC1;
+    float: left;
+}
+.demo1 ul{
+    
+    margin: 0px;
+    margin-top: 20px;
+    text-align: center;
+}
+.demo1 ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+.demo1 ul li a{
+    
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 30px;
+    
+    
+}
+.banner1{
+
+    width: 50%;
+    height: 400px;
+    background-color: #678BE9;
+    float: left;
+    margin-top: 60px;
+    text-align: center;
+}
+.banner2{
+    width: 50%;
+    height: 400px;
+    background-color: bisque;
+    float: left;
+    margin-top: 60px;
+}
+.banner2 img{
+    width: 100%;
+    height: 400px;
+}
+.service1{
+    width: 30%;
+    height: 250px;
+    background-color:#00E35B;
+    float: left;
+    margin-top: 60px;
+    text-align: center;
+    
+
+}
+.service1 img{
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    
+}
+.service1 h3{
+    font-size: 25px;
+    font-weight: bold;
+
+
+}
+.service2{
+    width: 30%;
+    height: 250px;
+    background-color: #00E35B;
+    float: left;
+    margin-top: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+
+}
+.service2 img{
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    
+}
+.service2 h3{
+    font-size: 25px;
+    font-weight: bold;
+
+
+}
+.service3{
+    width: 30%;
+    height: 250px;
+    background-color: #00E35B;
+    float: left;
+    margin-top: 60px;
+    text-align: center;
+
+}
+.service3 img{
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    
+}
+.service3 h3{
+    font-size: 25px;
+    font-weight: bold;
+
+
+}
+.portfolio{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(240, 7, 220);
+    float: left;
+    margin-top: 60px;
+    text-align: center;
+}
+.portfolio img{
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+}
+.project1{
+    width: 30%;
+    height: 200px;
+    background-color: #A3BE90;
+    float: left;
+    margin-top: 60px;
+    text-align: center;
+    
+}
+.project1 h2{
+    margin-top: 45px;
+    font-size: 35px;
+}
+.project2{
+    width: 30%;
+    height: 200px;
+    background-color: #A3BE90;
+    float: left;
+    margin-top: 60px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.project2 h2{
+    margin-top: 45px;
+    font-size: 35px;
+}
+.project3{
+    width: 30%;
+    height: 200px;
+    background-color: #A3BE90;
+    float: left;
+    margin-top: 60px;
+    text-align: center;
+}
+.project3 h2{
+    margin-top: 45px;
+    font-size: 35px;
+}
+.pt {
+    color: white;
+    display: inline-block;
+    background-color: #9c9b9a;
+    color: white;
+    padding: 6px 42px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.footer1{
+    width: 40%;
+    height: 200px;
+    background-color: rgb(255, 230, 2);
+    float: left;
+    margin-top: 60px;
+}
+
+.footer2{
+    width: 20%;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    margin-top: 60px;
+}
+
+.footer3{
+    width: 40%;
+    height: 200px;
+    background-color: rgb(255, 230, 2);
+    float: left;
+    margin-top: 60px;
+}
+
+
+
+
+/* //flaticon */
