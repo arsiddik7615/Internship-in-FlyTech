@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+}
+.hedear{
+    background-color: rgb(41, 250, 52);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo h3 {
+    margin-left: 20px; 
+}
+.menu{
+   
+}
+.menu ul {
+    margin:0px;
+    margin-top: 20px;
+    margin-right: 10px;
+    
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fcf7f7;
+    font-size: 20px;
+}
+.menu ul li a:hover{
+    color: chocolate;
+}
+
+
+.banner{
+    background-color: chocolate;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.banner_content{
+    background-color: yellow;
+    width: 50%;
+    text-align: center;
+}
+
+
+.banner_content h3{
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+}
+
+
+.banner_content h1{
+    font-size: 50px;
+    color: blueviolet;
+}
+
+
+.banner_content a{
+    text-decoration: none;
+    background-color: rgb(250, 27, 27);
+    padding: 5px 15px;
+    color: #fcf7f7;
+    border-radius: 10px;
+
+}
+
+
+.banner_content a:hover{
+    background-color:rgb(34, 0, 155);
+}
+
+
+.banner p{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.banner_img{
+    background-color: black;
+    width: 50%;
+}
+
+.banner_img img{
+    width: 100%;
+}
+
+
+.service{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+    height: 250px;
+    text-align: center;
+
+}
+.service img{
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.service1{
+    width: 30%;
+    background-color: aquamarine;
+}
+
+.service2{
+    width: 30%;
+    background-color: aquamarine;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.service3{
+    width: 30%;
+    background-color: aquamarine;
+}
+.portfolio{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(240, 7, 220);
+    float: left;
+    margin-top: 60px;
+    text-align: center;
+}
+.portfolio img{
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.project{
+    background-color: rgb(24, 5, 199);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.project1_img{
+    background-image: url('pic2.jpg');
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+.project1_content{
+    background-color: red;
+}
+.project1{
+    position: relative;
+}
+.project1_content{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    text-align: center;
+    visibility: hidden;
+}
+.project1:hover .project1_content{
+    visibility: visible;
+}
+.project2_img{
+    background-image: url('pic2.jpg');
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+.project2{
+    position: relative;
+}
+.project2_content{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    text-align: center;
+    visibility: hidden;
+}
+.project2:hover .project2_content{
+    visibility: visible;
+}
+.project3_img{
+    background-image: url('pic2.jpg');
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+.project3{
+    position: relative;
+}
+.project3_content{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    text-align: center;
+    visibility: hidden;
+}
+.project3:hover .project3_content{
+    visibility: visible;
+}

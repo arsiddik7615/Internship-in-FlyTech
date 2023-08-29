@@ -153,6 +153,8 @@
     background-color: rgb(240, 7, 220);
     float: left;
     margin-top: 60px;
+    margin-right: 20%;
+    margin-left: 20;
     text-align: center;
 }
 .portfolio img{
