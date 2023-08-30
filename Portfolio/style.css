@@ -62,6 +62,7 @@ img{
     color:white;
     font-weight: 700;
     font-size: 14px;
+    text-decoration: none;
 }
 
 .primary_button:hover {
@@ -113,6 +114,27 @@ img{
     color:#323232;
     font-weight: bold;
     padding-bottom: 10px;
+}
+.social_menu{
+    display: flex;
+    margin-top: 25px;
+
+}
+.social_menu a{
+    margin-right: 15px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 34px;
+    font-size: 20px;
+    color: #F95A30;
+    border-radius: 50%;
+    border: 3px solid #F95A30;
+    transition: .3s ease;
+}
+.social_menu a:hover{
+    color: white;
+    background-color: #F95A30;
 }
 .man{
     width: 50%;
@@ -173,7 +195,7 @@ img{
     position: relative;
     width: 100%;
 }
-.widget{
+/* .widget{
     position: absolute;
     top: 0;
     left: 50%;
@@ -208,4 +230,122 @@ img{
     margin-right: 4px;
     border-right: 1px solid rgba(0, 0, 0, 0.2);
     border-left: 1px solid rgba(0, 0, 0, 0.2);
+} */
+
+
+
+
+.about_block{
+    margin-top: 40px;
+    display: flex;
+    
+   
+}
+.about_img{
+    width: 30%;
+    padding-right: 50px;
+}
+.about_img img {
+    height: 300px;
+    display: block;
+    outline-offset: 5px;
+    padding-left: 7.5rem;
+    border-radius: 3px;
+    outline: 1px solid rgba(0, 0, 0, 0.2);
+}
+img{
+    max-width: 100%;
+}
+.about_content{
+    width: 70%;
+    color: #323232;
+}
+.about_content h1{
+    font-size: 30px;
+}
+.about_content h2{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 20px;
+}
+.about_content p{
+    margin-bottom: 20px;
+}
+
+
+
+.section_headline{
+    margin-top: 4rem;
+    text-align: center;
+    color: #323232; 
+}
+
+.service_block{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.service_card{
+    width: 25%;
+    padding-inline: 20px;
+}
+.service_card .inside {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding: 80px 0;
+    text-align: center;
+    color: var(--black_color_opacity);
+    transition: .3s ease;
+    user-select: none;
+}
+.service_card .inside i {
+    color: var(--highlight_color);
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.service_card .inside h1 {
+    font-weight: 500;
+    font-size: 22px;
+}
+.service_card .inside:hover{
+    background-color: #F95A30;
+    color: white;
+}
+.service_card .inside:hover i{
+    color: white;
+}
+
+.skill_section{
+    
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.skill_card{
+    
+    padding-inline: 20px;
+    width: 50%;
+    margin-bottom: 40px;
+          
+    
+}
+.skill_card .inside h1 {
+    font-size: 16px;
+    color: #323232; 
+    font-weight: 600;
+}
+.progress_bar {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 4px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.progress_bar .progress {
+    width: 90%;
+    background-color: #F95A30;
+    height: 100%;
+    border-radius: 5px;
 }
