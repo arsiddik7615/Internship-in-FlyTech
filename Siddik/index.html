@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
+    <link rel="stylesheet" href="animate.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -43,7 +46,7 @@
     <div class="banner">
         <div class="hello">
             <h2>hello, I'm</h2>
-            <h1>A R Siddik</h1>
+            <h1 class="tlt" data-in-effect="flip" data-out-effect="rollOut" >A R Siddik</h1>
             <p>Software Engineer</p>
             <span class="hire_me"><a href="#">Hire Me</a></span>
             <span class="cv"><a href="#">Download Cv</a></span>
@@ -85,7 +88,7 @@
         </div>
         <div class="about_info">
             <div class="about_info_img">
-                <img src="avatar.jpg" alt="">
+                <img class="wow fadeInLeft" data-wow-duration="5s" src="avatar.jpg" alt="">
             </div>
             <div class="about_info_content">
                 <h3>A R SIDDIK</h3>
@@ -97,26 +100,26 @@
     </div>
 
     <div class="service">
-        <div class="section_headline">
+        <div class="wow bounceInLeft  section_headline" data-wow-duration="5s">
             <h2>Service</h2>
             <h1>What I Do</h1>
             <p>" Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. "<br>" rerum commodi corrupti, temporibus non quam. "
             </p>
         </div>
         <div class="service_list">
-            <div class="service_list_item">
+            <div class="service_list_item wow bounceInLeft" data-wow-duration="5s">
                 <i class="fa fa-crown"></i>
                 <h3>UI/UX Design</h1>
             </div>
-            <div class="service_list_item">
+            <div class="service_list_item wow bounceInDown" data-wow-duration="5s">
                 <i class="fa fa-crown"></i>
                 <h3>UI/UX Design</h1>
             </div>
-            <div class="service_list_item">
+            <div class="service_list_item wow bounceInUp" data-wow-duration="5s">
                 <i class="fa fa-crown"></i>
                 <h3>UI/UX Design</h1>
             </div>
-            <div class="service_list_item">
+            <div class="service_list_item wow bounceInRight" data-wow-duration="5s">
                 <i class="fa fa-crown"></i>
                 <h3>UI/UX Design</h1>
             </div>
@@ -224,22 +227,66 @@
     </div>
 
     <div class="testimonial">
+        
         <div class="testimonial_content">
             <h4>Testmonial</h4>
             <h2>What People Say About Me</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos.
                 <br>rerum commodi corrupti, temporibus non quam.</p>
         </div>
-        <div class="testimonial_box">
-            <div class="testimonial_img">
-                <img src="avatar-1.jpg">
+        <div class="owl-carousel owl-theme">
+            <div class="testimonial_box"> 
+                <div class="testimonial_img">
+                    <img src="avatar-1.jpg">
+                </div>
+                <div class="testimonial_box_content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates in enim vel amet?</p>
+                    <h3>Emma Re</h3>
+                    <h4>Graphics Designer</h4>
+                </div>
             </div>
-            <div class="testimonial_box_content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates in enim vel amet?</p>
-                <h3>Emma Re</h3>
-                <h4>Graphics Designer</h4>
+            <div class="testimonial_box"> 
+                <div class="testimonial_img">
+                    <img src="avatar-1.jpg">
+                </div>
+                <div class="testimonial_box_content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates in enim vel amet?</p>
+                    <h3>Emma Re</h3>
+                    <h4>Graphics Designer</h4>
+                </div>
             </div>
-        </div>
+            <div class="testimonial_box"> 
+                <div class="testimonial_img">
+                    <img src="avatar-1.jpg">
+                </div>
+                <div class="testimonial_box_content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates in enim vel amet?</p>
+                    <h3>Emma Re</h3>
+                    <h4>Graphics Designer</h4>
+                </div>
+            </div>
+            <div class="testimonial_box"> 
+                <div class="testimonial_img">
+                    <img src="avatar-1.jpg">
+                </div>
+                <div class="testimonial_box_content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates in enim vel amet?</p>
+                    <h3>Emma Re</h3>
+                    <h4>Graphics Designer</h4>
+                </div>
+            </div>
+            <div class="testimonial_box"> 
+                <div class="testimonial_img">
+                    <img src="avatar-1.jpg">
+                </div>
+                <div class="testimonial_box_content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates in enim vel amet?</p>
+                    <h3>Emma Re</h3>
+                    <h4>Graphics Designer</h4>
+                </div>
+            </div>
+          </div>
+        
     </div>
 
 
@@ -379,5 +426,29 @@
             </div>
         </div>
     </div>
+
+
+
+
+    <script src="jquery.js"></script>
+    <script src="jquery.textillate.js"></script>
+    <script src="jquery.lettering.js"></script>
+    <script src="wow.min.js"></script>
+    <script src="owl.carousel.min.js"></script>
+
+    <script>
+
+        $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+            items:1
+        });
+        });
+         new WOW().init();
+        $(function () {
+	    $('.tlt').textillate({
+        loop:true
+    });
+})
+    </script>
 </body>
 </html>

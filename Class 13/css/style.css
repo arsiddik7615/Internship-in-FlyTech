@@ -1,0 +1,19 @@
+.cat_item{
+    background-size: cover;
+    background-position: center;
+}
+.cat_item h3{
+    padding-top: 150px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    color: white;
+}
+.cat_item1{
+    background-image: url('../img/img1.jpg');
+}
+.cat_item2{
+    background-image: url('../img/img2.jpg');
+}
+.cat_item3{
+    background-image: url('../img/img3.jpg');
+}
